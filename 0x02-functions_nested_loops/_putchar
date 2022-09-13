@@ -1,0 +1,8 @@
+#include <unistd.h>
+
+/**
+* This function (_putchar) writes character to an output
+*/
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
